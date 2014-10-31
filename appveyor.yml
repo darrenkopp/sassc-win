@@ -11,7 +11,7 @@ install:
   - SET SASS_LIBSASS_PATH=libsass
 
 test_script:
-  - make test
-  - c:\mingw\msys\1.0\bin\sh ./libsass/script/cibuild
+  - msbuild sassc-win.sln /t:Build /p:Configuration=Release;Platform=Win32
+  - c:\mingw\msys\1.0\bin\sh ./sass-win/libsass/script/cibuild
 
 build: off
