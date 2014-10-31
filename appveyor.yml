@@ -1,0 +1,17 @@
+init:
+  - git config --global core.autocrlf input
+
+install:
+  - SET PATH=C:\Ruby%ruby_version%\bin;C:\MinGW\bin;%PATH%
+  - ruby --version
+  - gem --version
+  - gem install sass
+  - gem install minitest
+  - git submodule --recursive --init
+  - SET SASS_LIBSASS_PATH=libsass
+
+test_script:
+  - make test
+  - c:\mingw\msys\1.0\bin\sh ./libsass/script/cibuild
+
+build: off
