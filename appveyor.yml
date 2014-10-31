@@ -12,6 +12,6 @@ install:
 
 test_script:
   - msbuild sassc-win.sln /t:Build /p:Configuration=Release;Platform=Win32
-  - c:\mingw\msys\1.0\bin\sh c:/projects/sassc-win/sassc-win/libsass/script/cibuild
+  - c:\mingw\msys\1.0\bin\sh: make test
 
 build: off
