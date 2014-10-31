@@ -47,7 +47,7 @@
     <LinkIncremental>false</LinkIncremental>
     <TargetName>sassc</TargetName>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  <ItemDefinitionGroup>
     <ClCompile>
       <AdditionalIncludeDirectories>.\libsass;..\posix;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
