@@ -2,7 +2,7 @@ init:
   - git config --global core.autocrlf input
 
 install:
-  - SET PATH=C:\Ruby%ruby_version%\bin;C:\MinGW\bin;%PATH%
+  - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
   - ruby --version
   - gem --version
   - gem install sass
