@@ -111,6 +111,12 @@
     <ClCompile Include="libsass\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="libsass\cencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libsass\json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libsass\utf8\checked.h">
@@ -258,6 +264,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="libsass\util.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libsass\json.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

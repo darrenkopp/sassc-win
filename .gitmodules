@@ -4,3 +4,6 @@
 [submodule "sassc-win/libsass"]
 	path = sassc-win/libsass
 	url = https://github.com/sass/libsass.git
+[submodule "sassc-win/sass-spec"]
+	path = sassc-win/sass-spec
+	url = https://github.com/sass/sass-spec.git

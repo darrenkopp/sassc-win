@@ -6,7 +6,6 @@ platform:
   - Win64
 
 configuration:
-  - Debug
   - Release
 
 build:
@@ -14,12 +13,12 @@ build:
   verbosity: detailed
 
 install:
-  - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
+  - SET PATH=C:\Ruby%ruby_version%\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;%PATH%
   - ruby --version
   - gem --version
-  - gem install sass
+  - gem install sass minitest
   - git submodule update --recursive --init
-  - SET SASS_LIBSASS_PATH=libsass
 
 test_script:
   - bin\sassc -h
+  - ruby sassc-win/sass-spec/sass-spec.rb -c bin/sassc sassc-win/sass-spec/spec

@@ -160,6 +160,7 @@
     <ClCompile Include="libsass\ast.cpp" />
     <ClCompile Include="libsass\base64vlq.cpp" />
     <ClCompile Include="libsass\bind.cpp" />
+    <ClCompile Include="libsass\cencode.c" />
     <ClCompile Include="libsass\constants.cpp" />
     <ClCompile Include="libsass\context.cpp" />
     <ClCompile Include="libsass\contextualize.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="libsass\file.cpp" />
     <ClCompile Include="libsass\functions.cpp" />
     <ClCompile Include="libsass\inspect.cpp" />
+    <ClCompile Include="libsass\json.cpp" />
     <ClCompile Include="libsass\node.cpp" />
     <ClCompile Include="libsass\output_compressed.cpp" />
     <ClCompile Include="libsass\output_nested.cpp" />
@@ -211,6 +213,7 @@
     <ClInclude Include="libsass\file.hpp" />
     <ClInclude Include="libsass\functions.hpp" />
     <ClInclude Include="libsass\inspect.hpp" />
+    <ClInclude Include="libsass\json.hpp" />
     <ClInclude Include="libsass\kwd_arg_macros.hpp" />
     <ClInclude Include="libsass\mapping.hpp" />
     <ClInclude Include="libsass\memory_manager.hpp" />
