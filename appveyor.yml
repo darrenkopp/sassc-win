@@ -21,4 +21,4 @@ install:
 
 test_script:
   - bin\sassc -h
-  - ruby sassc-win/sass-spec/sass-spec.rb -c bin/sassc sassc-win/sass-spec/spec
+  - ruby sassc-win/sass-spec/sass-spec.rb -c bin/sassc --ignore-todo sassc-win/sass-spec/spec
