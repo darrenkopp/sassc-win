@@ -1,6 +1,18 @@
 init:
   - git config --global core.autocrlf input
 
+platform:
+  - Win32
+  - Win64
+
+configuration:
+  - Debug
+  - Release
+
+build:
+  project: sassc-win.sln 
+  verbosity: detailed
+
 install:
   - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
   - ruby --version
@@ -10,7 +22,4 @@ install:
   - SET SASS_LIBSASS_PATH=libsass
 
 test_script:
-  - msbuild sassc-win.sln /t:Build /p:Configuration=Release;Platform=Win32
   - bin\sassc -h
-
-build: off
