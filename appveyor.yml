@@ -6,7 +6,6 @@ install:
   - ruby --version
   - gem --version
   - gem install sass
-  - gem install minitest
   - git submodule update --recursive --init
   - SET SASS_LIBSASS_PATH=libsass
 
