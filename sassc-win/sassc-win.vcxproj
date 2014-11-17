@@ -181,8 +181,11 @@
     <ClCompile Include="libsass\remove_placeholders.cpp" />
     <ClCompile Include="libsass\sass.cpp" />
     <ClCompile Include="libsass\sass2scss.cpp" />
+    <ClCompile Include="libsass\sass_context.cpp" />
+    <ClCompile Include="libsass\sass_functions.cpp" />
     <ClCompile Include="libsass\sass_interface.cpp" />
     <ClCompile Include="libsass\sass_util.cpp" />
+    <ClCompile Include="libsass\sass_values.cpp" />
     <ClCompile Include="libsass\source_map.cpp" />
     <ClCompile Include="libsass\to_c.cpp" />
     <ClCompile Include="libsass\to_string.cpp" />
@@ -228,7 +231,10 @@
     <ClInclude Include="libsass\remove_placeholders.hpp" />
     <ClInclude Include="libsass\sass.h" />
     <ClInclude Include="libsass\sass2scss.h" />
+    <ClInclude Include="libsass\sass_context.h" />
+    <ClInclude Include="libsass\sass_functions.h" />
     <ClInclude Include="libsass\sass_interface.h" />
+    <ClInclude Include="libsass\sass_values.h" />
     <ClInclude Include="libsass\sass_util.hpp" />
     <ClInclude Include="libsass\source_map.hpp" />
     <ClInclude Include="libsass\subset_map.hpp" />
