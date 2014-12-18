@@ -181,11 +181,8 @@
     <ClCompile Include="libsass\remove_placeholders.cpp" />
     <ClCompile Include="libsass\sass.cpp" />
     <ClCompile Include="libsass\sass2scss.cpp" />
-    <ClCompile Include="libsass\sass_context.cpp" />
-    <ClCompile Include="libsass\sass_functions.cpp" />
     <ClCompile Include="libsass\sass_interface.cpp" />
     <ClCompile Include="libsass\sass_util.cpp" />
-    <ClCompile Include="libsass\sass_values.cpp" />
     <ClCompile Include="libsass\source_map.cpp" />
     <ClCompile Include="libsass\to_c.cpp" />
     <ClCompile Include="libsass\to_string.cpp" />

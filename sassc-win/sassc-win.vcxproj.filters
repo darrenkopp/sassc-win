@@ -269,5 +269,14 @@
     <ClInclude Include="libsass\json.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="libsass\sass_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libsass\sass_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libsass\sass_values.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
